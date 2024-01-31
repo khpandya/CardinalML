@@ -1,0 +1,14 @@
+# Test your FastAPI endpoints
+
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{    "Age": 50,
+    "Sex": "M",
+    "RestingBP": 120,
+    "Cholesterol": 240,
+    "FastingBS": 0,
+    "RestingECG": "Normal",
+    "MaxHR": 170,
+    "ExerciseAngina": "Y"
+}
